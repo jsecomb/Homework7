@@ -1,0 +1,149 @@
+
+body {
+    background-color: #399;
+
+}
+
+.container {
+    width: 80%;
+    padding: 50px;
+    border-bottom: dashed;
+    border-width: 6px;
+}
+
+.textContainer {
+    padding:14px;
+    background-color: beige;
+    border-color: navy;
+    border-style: outset;
+    border-radius: 30px;
+    box-shadow: 3px 3px 2px orange;
+}
+
+.bioImage {
+    border-radius: 30px;
+    size: fill;
+}
+
+a.nav-link { 
+    Font-family: 'Monoton', cursive;
+    font-size: 36px;
+    color: black;
+}
+
+a.nav-link:hover {
+    color: black;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+a.active {
+    font-family: 'Monoton', cursive;
+    font-size: 36px;
+    color:rgb(58, 58, 58);
+}
+
+.nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    float:none;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    font-weight: 1000;
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+    word-wrap: justify;
+}
+
+h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    font-weight: 1000;
+    color: black;
+    text-align: center;
+    word-wrap: justify;
+    border-bottom: 2px solid currentColor;
+}
+
+p{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    word-wrap: justify;
+}
+
+.carousel-inner {
+    border-radius: 30px;
+}
+
+.carousel {
+}
+
+.portfolioText {
+    border-radius: 30px;
+    background-color: #d3d3d3;
+}
+
+.contactMe {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #ff971a;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: orangered;
+}
+
+.page-footer {
+    position: sticky
+}
+
+.footer-copyright {
+    font-family: 'Poiret One', cursive;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footerLink {
+    font-family: 'Poiret One', cursive;
+    font-size: 12px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.portfolioLink {
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    font-weight: 1000;
+    color: black;
+    text-align: center;
+    word-wrap: justify;
+    border-bottom: 2px solid currentColor;
+}
+
+
+@media screen and (max-width: 768px) {
+    .carousel-inner {
+        margin-bottom: 15px;
+    }
+
+    .bioImage {
+        margin-bottom: 15px;
+    }
+
+    .container {
+        width: 100%;
+}
