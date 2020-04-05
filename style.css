@@ -4,11 +4,24 @@ body {
 
 }
 
+.jumbotron {
+    background-color: purple;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .container {
     width: 80%;
     padding: 50px;
     border-bottom: dashed;
     border-width: 6px;
+    word-wrap: auto;
+}
+
+.contactMe {
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+    color: black;
 }
 
 .textContainer {
@@ -23,23 +36,26 @@ body {
 .bioImage {
     border-radius: 30px;
     size: fill;
+    border-color: navy;
+    border-style: outset;
 }
 
 a.nav-link { 
     Font-family: 'Monoton', cursive;
     font-size: 36px;
-    color: black;
+    color: #39ff14;
 }
 
 a.nav-link:hover {
-    color: black;
-    text-shadow: 2px 2px 2px whitesmoke;
+    color: #39ff14;
+    text-shadow: 3px 3px 2px orange;
 }
 
 a.active {
     font-family: 'Monoton', cursive;
     font-size: 36px;
-    color:rgb(58, 58, 58);
+    color: #39ff14;
+    text-shadow: 2px 2px 1px orange;
 }
 
 .nav {
@@ -66,7 +82,7 @@ h1{
 
 h2{
     font-family: 'Poiret One', cursive;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 1000;
     color: black;
     text-align: center;
@@ -74,9 +90,18 @@ h2{
     border-bottom: 2px solid currentColor;
 }
 
+h4{
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    word-wrap: justify;
+}
+
 p{
     font-family: 'Poiret One', cursive;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: black;
     word-wrap: justify;
@@ -132,8 +157,13 @@ p{
     text-align: center;
     word-wrap: justify;
     border-bottom: 2px solid currentColor;
+    padding-top: 12px;
 }
 
+.contactLink{
+    font-family: 'Poiret One', cursive;
+    color: darkgray;
+}
 
 @media screen and (max-width: 768px) {
     .carousel-inner {
